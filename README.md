@@ -122,15 +122,6 @@ You can retrain or fine-tune it using [Roboflow](https://roboflow.com/) or [YOLO
 
 ---
 
-### 📸 Screenshots
-
-<p float="left">
-  <img src="https://via.placeholder.com/300x180.png?text=Image+Detection" width="45%" />
-  <img src="https://via.placeholder.com/300x180.png?text=Webcam+Detection" width="45%" />
-</p>
-
----
-
 ### 🤝 Contributing
 
 Feel free to open issues or pull requests. All feedback is welcome!
