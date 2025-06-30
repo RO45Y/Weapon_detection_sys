@@ -17,11 +17,31 @@ An AI-powered real-time weapon detection application built with **YOLOv5** and *
 
 ### 📸 Demo Preview
 
-| Upload Image/Video | Real-time Webcam |
-|--------------------|------------------|
-| ![upload](https://img.shields.io/badge/Upload-Detection-green) | ![webcam](https://img.shields.io/badge/Webcam-Detection-blue) |
+#### 🖼️ Image Upload Detection
+The user uploads an image. If a weapon like a **gun** or **knife** is detected, a red bounding box is drawn with a label and confidence score. The system displays a "🚨 Weapon Detected!" message.
 
-> ⚠️ This is a demo project and should not be used as a sole security solution.
+![upload](demo/upload_detection.png)
+
+---
+
+#### 🎥 Real-time Webcam Detection
+The system captures live video frames from your webcam. If a weapon is detected, a bounding box is drawn and a snapshot is saved. You also get a real-time warning on the screen.
+
+![webcam](demo/webcam_detection.png)
+
+---
+
+#### 📹 Video File Detection
+You can upload `.mp4` videos. Each frame is scanned for weapons and annotated in real-time.
+
+![video](demo/video_detection.png)
+
+---
+
+#### ✅ No Weapon Detected View
+When no weapon is detected, the system overlays a green message: "✅ No Weapon Detected".
+
+![no weapon](demo/no_weapon.png)
 
 ---
 
@@ -35,7 +55,7 @@ Weapon_detection_sys/
 │   ├── weapon_detection.py   # Detection logic using YOLOv5
 │   ├── models/               # YOLOv5 model files
 │   ├── utils/                # YOLOv5 utilities
-│   └── best_compatible.pt    # Trained YOLOv5 model
+├── best_compatible.pt    # Trained YOLOv5 model  
 └── README.md                 # Project readme
 ```
 
