@@ -49,10 +49,10 @@ When no weapon is detected, the system overlays a green message: "✅ No Weapon 
 
 ```
 Weapon_detection_sys/
-├── app.py                    # Main Streamlit app
+├── app.py                # Main Streamlit app
+├── weapon_detection.py   # Detection logic using YOLOv5                   
 ├── detected/                 # Stores captured images when weapons are found
 ├── yolov5/
-│   ├── weapon_detection.py   # Detection logic using YOLOv5
 │   ├── models/               # YOLOv5 model files
 │   ├── utils/                # YOLOv5 utilities
 ├── best_compatible.pt    # Trained YOLOv5 model  

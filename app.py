@@ -5,7 +5,7 @@ import numpy as np
 import tempfile
 import os
 import time
-from yolov5.weapon_detection import run_detection  # Updated function returning frame & flag
+from weapon_detection import run_detection  # Updated function returning frame & flag
 
 st.set_page_config(page_title="Weapon Detection", layout="centered")
 st.title("🔫 Weapon Detection System")
