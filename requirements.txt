@@ -1,0 +1,14 @@
+# Streamlit for web frontend
+streamlit>=1.20.0
+
+# OpenCV for image/video processing
+opencv-python>=4.5.5
+
+# Torch for running YOLOv5 models
+torch>=1.13.0
+
+# NumPy for array manipulations
+numpy>=1.21.0
+
+# Pillow for image support
+Pillow>=8.4.0

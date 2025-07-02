@@ -87,9 +87,9 @@
 # cv2.destroyAllWindows()
 
 
-# yolov5/weapon_detection.py
 
-# yolov5/weapon_detection.py
+
+#weapon_detection.py
 import sys
 import os
 
